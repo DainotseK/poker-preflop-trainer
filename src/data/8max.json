@@ -7,10 +7,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max varase positsiooni open raise chart.",
-          "note": "See on esimene baasversioon. Järgmise sammuna timmime UTG range'i sinu chart-pildi järgi täpseks.",
+          "description": "8-max UTG open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["77+", "A3s+", "K9s+", "QTs+", "JTs", "T9s", "AQo+", "KQo"],
+            "raise": ["66+", "A3s+", "K9s+", "Q9s+", "AJo+", "KQo"],
             "raise_bluff": [],
             "call": []
           }
@@ -22,10 +22,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max varajase positsiooni open raise chart.",
-          "note": "Veidi laiem kui puhas UTG.",
+          "description": "8-max UTG+1 open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["77+", "A3s+", "K8s+", "QTs+", "JTs", "T9s", "AJo+", "KQo"],
+            "raise": ["66+", "A3s+", "K8s+", "Q9s+", "J9s+", "T9s", "98s", "ATo+"],
             "raise_bluff": [],
             "call": []
           }
@@ -37,10 +37,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max keskmise varajase positsiooni open raise chart.",
-          "note": "Siit hakkab range veidi laienema.",
+          "description": "8-max UTG+2 open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["66+", "A2s+", "K7s+", "QTs+", "JTs", "T9s", "ATo+", "KJo+"],
+            "raise": ["44+", "A2s+", "K8s+", "Q9s+", "J9s+", "T8s+", "98s", "76s", "ATo+", "KTo+"],
             "raise_bluff": [],
             "call": []
           }
@@ -52,10 +52,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max lojack open raise chart.",
-          "note": "Lojackist lisandub rohkem suited ässasid ja broadway-sid.",
+          "description": "8-max Lojack open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["55+", "A2s+", "K5s+", "Q9s+", "J9s+", "T9s", "ATo+", "KTo+", "QJo"],
+            "raise": ["33+", "A2s+", "K6s+", "Q9s+", "J8s+", "T8s+", "98s", "87s", "76s", "A9o+", "KTo+", "QTo+"],
             "raise_bluff": [],
             "call": []
           }
@@ -67,10 +67,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max hijack open raise chart.",
-          "note": "Hijack on juba pool-late position ja steal equity kasvab.",
+          "description": "8-max Hijack open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["55+", "A2s+", "K5s+", "Q9s+", "J9s+", "T9s", "ATo+", "KTo+", "QJo"],
+            "raise": ["22+", "A2s+", "K4s+", "Q8s+", "J8s+", "T7s+", "97s+", "87s", "76s", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"],
             "raise_bluff": [],
             "call": []
           }
@@ -82,10 +82,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max cutoff open raise chart.",
-          "note": "Cutoff on oluline steal-positsioon.",
+          "description": "8-max Cutoff open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["44+", "A2s+", "K5s+", "Q8s+", "J8s+", "T8s+", "97s+", "87s", "76s", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"],
+            "raise": ["22+", "A2s+", "K2s+", "Q5s+", "J7s+", "T6s+", "96s+", "86s+", "75s+", "65s", "54s", "A5o+", "K9o+", "Q9o+", "J9o+", "T9o"],
             "raise_bluff": [],
             "call": []
           }
@@ -97,10 +97,10 @@
       "spots": {
         "open": {
           "label": "Open Raise",
-          "description": "8-max button open raise chart.",
-          "note": "Button on kõige laiem standardne open-raise spot enne SB mixed strateegiat.",
+          "description": "8-max Button open raise chart.",
+          "note": "PokerCoaching 75bb MTT starting point.",
           "actions": {
-            "raise": ["22+", "A2s+", "K2s+", "Q3s+", "J5s+", "T6s+", "96s+", "86s+", "76s", "65s", "54s", "A3o+", "K8o+", "Q9o+", "J9o+", "T9o"],
+            "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J3s+", "T3s+", "95s+", "85s+", "74s+", "64s+", "53s+", "43s", "A2o+", "K5o+", "Q8o+", "J8o+", "T7o+", "97o+", "87o"],
             "raise_bluff": [],
             "call": []
           }
@@ -111,11 +111,11 @@
       "label": "Small Blind",
       "spots": {
         "open": {
-          "label": "Open Strategy Baseline",
-          "description": "8-max small blind baseline enne mixed charti detailset sissekandmist.",
-          "note": "Kui hakkame sinu pildi järgi SB charti ümber tegema, lisame siia eraldi raise, raise_bluff ja call / limp actionid.",
+          "label": "Raise or Limp",
+          "description": "8-max Small Blind raise-or-limp baseline.",
+          "note": "PokerCoaching 75bb MTT starting point. Praegu märgitud ühte actionisse; hiljem jagame raise / limp eraldi.",
           "actions": {
-            "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J2s+", "T2s+", "92s+", "84s+", "73s+", "63s+", "52s+", "42s+", "A2o+", "K2o+", "Q3o+", "J5o+", "T6o+", "96o+", "86o+", "75o+", "65o", "54o"],
+            "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J2s+", "T2s+", "92s+", "82s+", "72s+", "62s+", "52s+", "42s+", "32s", "A2o+", "K2o+", "Q2o+", "J2o+", "T3o+", "95o+", "85o+", "75o+", "64o+", "54o"],
             "raise_bluff": [],
             "call": []
           }
