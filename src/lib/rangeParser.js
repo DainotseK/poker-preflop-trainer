@@ -1,11 +1,15 @@
 export const RANKS = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2']
 
+const rankIndex = Object.fromEntries(RANKS.map((rank, index) => [rank, index]))
+
 function expandPairPlus(token) {
   const start = rankIndex[token[0]]
   const hands = []
+
   for (let i = start; i >= 0; i -= 1) {
     hands.push(`${RANKS[i]}${RANKS[i]}`)
   }
+
   return hands
 }
 
@@ -14,9 +18,12 @@ function expandPairRange(token) {
   const start = rankIndex[left[0]]
   const end = rankIndex[right[0]]
   const hands = []
-  for (let i = start; i <= end; i += 1) {
+
+  const step = start <= end ? 1 : -1
+  for (let i = start; step === 1 ? i <= end : i >= end; i += step) {
     hands.push(`${RANKS[i]}${RANKS[i]}`)
   }
+
   return hands
 }
 
@@ -24,6 +31,7 @@ function expandSuitedOrOffsuitPlus(token) {
   const high = token[0]
   const low = token[1]
   const suffix = token[2]
+
   const highIndex = rankIndex[high]
   const lowIndex = rankIndex[low]
   const hands = []
@@ -46,7 +54,8 @@ function expandLinearRange(token) {
   const end = rankIndex[rightLow]
   const hands = []
 
-  for (let i = start; i <= end; i += 1) {
+  const step = start <= end ? 1 : -1
+  for (let i = start; step === 1 ? i <= end : i >= end; i += step) {
     hands.push(`${high}${RANKS[i]}${suffix}`)
   }
 
@@ -75,8 +84,10 @@ export function expandToken(token) {
 
 export function buildActionSet(tokens = []) {
   const hands = new Set()
+
   tokens.forEach((token) => {
     expandToken(token).forEach((hand) => hands.add(hand))
   })
+
   return hands
 }
