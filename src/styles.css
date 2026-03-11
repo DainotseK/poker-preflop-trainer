@@ -79,10 +79,6 @@ textarea {
   gap: 18px;
 }
 
-.control-group + .control-group {
-  margin-top: 0;
-}
-
 .control-title {
   font-size: 0.95rem;
   font-weight: 800;
@@ -214,7 +210,7 @@ textarea {
   min-width: 58px;
   height: 58px;
   cursor: default;
-  transition: filter 0.12s ease, transform 0.12s ease;
+  transition: filter 0.12s ease;
   color: white;
 }
 
