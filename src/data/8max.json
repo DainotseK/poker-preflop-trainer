@@ -1,0 +1,101 @@
+{
+          "actions": {
+            "raise": ["77+", "A3s+", "K8s+", "QTs+", "JTs", "T9s", "AJo+", "KQo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "UTG+2": {
+      "label": "UTG+2",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max keskmise varajase positsiooni open raise chart.",
+          "note": "Siit hakkab range veidi laienema.",
+          "actions": {
+            "raise": ["66+", "A2s+", "K7s+", "QTs+", "JTs", "T9s", "ATo+", "KJo+"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "LJ": {
+      "label": "Lojack",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max lojack open raise chart.",
+          "note": "Lojackist lisandub rohkem suited ässasid ja broadway-sid.",
+          "actions": {
+            "raise": ["55+", "A2s+", "K5s+", "Q9s+", "J9s+", "T9s", "ATo+", "KTo+", "QJo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "HJ": {
+      "label": "Hijack",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max hijack open raise chart.",
+          "note": "Hijack on juba pool-late position ja steal equity kasvab.",
+          "actions": {
+            "raise": ["55+", "A2s+", "K5s+", "Q9s+", "J9s+", "T9s", "ATo+", "KTo+", "QJo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "CO": {
+      "label": "Cutoff",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max cutoff open raise chart.",
+          "note": "Cutoff on oluline steal-positsioon.",
+          "actions": {
+            "raise": ["44+", "A2s+", "K5s+", "Q8s+", "J8s+", "T8s+", "97s+", "87s", "76s", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "BTN": {
+      "label": "Button",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max button open raise chart.",
+          "note": "Button on kõige laiem standardne open-raise spot enne SB mixed strateegiat.",
+          "actions": {
+            "raise": ["22+", "A2s+", "K2s+", "Q3s+", "J5s+", "T6s+", "96s+", "86s+", "76s", "65s", "54s", "A3o+", "K8o+", "Q9o+", "J9o+", "T9o"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "SB": {
+      "label": "Small Blind",
+      "spots": {
+        "open": {
+          "label": "Open Strategy Baseline",
+          "description": "8-max small blind baseline enne mixed charti detailset sissekandmist.",
+          "note": "Kui hakkame sinu pildi järgi SB charti ümber tegema, lisame siia eraldi raise, raise_bluff ja call / limp actionid.",
+          "actions": {
+            "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J2s+", "T2s+", "92s+", "84s+", "73s+", "63s+", "52s+", "42s+", "A2o+", "K2o+", "Q3o+", "J5o+", "T6o+", "96o+", "86o+", "75o+", "65o", "54o"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    }
+  }
+}
