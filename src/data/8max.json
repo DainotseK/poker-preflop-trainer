@@ -1,4 +1,29 @@
 {
+  "format": "8max",
+  "label": "8-max",
+  "positions": {
+    "UTG": {
+      "label": "UTG",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max varase positsiooni open raise chart.",
+          "note": "See on esimene baasversioon. Järgmise sammuna timmime UTG range'i sinu chart-pildi järgi täpseks.",
+          "actions": {
+            "raise": ["77+", "A3s+", "K9s+", "QTs+", "JTs", "T9s", "AQo+", "KQo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "UTG+1": {
+      "label": "UTG+1",
+      "spots": {
+        "open": {
+          "label": "Open Raise",
+          "description": "8-max varajase positsiooni open raise chart.",
+          "note": "Veidi laiem kui puhas UTG.",
           "actions": {
             "raise": ["77+", "A3s+", "K8s+", "QTs+", "JTs", "T9s", "AJo+", "KQo"],
             "raise_bluff": [],
