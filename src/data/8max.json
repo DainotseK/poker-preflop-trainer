@@ -8,7 +8,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["66+", "A3s+", "K9s+", "Q9s+", "AJo+", "KQo"],
             "raise_bluff": [],
@@ -23,9 +23,19 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG+1 open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["66+", "A3s+", "K8s+", "Q9s+", "J9s+", "T9s", "98s", "ATo+"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "UTG+1 facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -38,9 +48,29 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG+2 open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["44+", "A2s+", "K8s+", "Q9s+", "J9s+", "T8s+", "98s", "76s", "ATo+", "KTo+"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "UTG+2 facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "UTG+2 facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -53,9 +83,39 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Lojack open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["33+", "A2s+", "K6s+", "Q9s+", "J8s+", "T8s+", "98s", "87s", "76s", "A9o+", "KTo+", "QTo+"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "LJ facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "LJ facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "LJ facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -68,9 +128,49 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Hijack open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["22+", "A2s+", "K4s+", "Q8s+", "J8s+", "T7s+", "97s+", "87s", "76s", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "HJ facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "HJ facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "HJ facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_lj_open": {
+          "label": "Vs LJ Open",
+          "description": "HJ facing LJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -83,9 +183,59 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Cutoff open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q5s+", "J7s+", "T6s+", "96s+", "86s+", "75s+", "65s", "54s", "A5o+", "K9o+", "Q9o+", "J9o+", "T9o"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "CO facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "CO facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "CO facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_lj_open": {
+          "label": "Vs LJ Open",
+          "description": "CO facing LJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_hj_open": {
+          "label": "Vs HJ Open",
+          "description": "CO facing HJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -98,9 +248,69 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Button open raise chart.",
-          "note": "PokerCoaching 75bb MTT starting point.",
+          "note": "Open raise spot.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J3s+", "T3s+", "95s+", "85s+", "74s+", "64s+", "53s+", "43s", "A2o+", "K5o+", "Q8o+", "J8o+", "T7o+", "97o+", "87o"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "BTN facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "BTN facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "BTN facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_lj_open": {
+          "label": "Vs LJ Open",
+          "description": "BTN facing LJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_hj_open": {
+          "label": "Vs HJ Open",
+          "description": "BTN facing HJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_co_open": {
+          "label": "Vs CO Open",
+          "description": "BTN facing CO open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
@@ -112,10 +322,165 @@
       "spots": {
         "open": {
           "label": "Raise or Limp",
-          "description": "8-max Small Blind raise-or-limp baseline.",
-          "note": "PokerCoaching 75bb MTT starting point. Praegu märgitud ühte actionisse; hiljem jagame raise / limp eraldi.",
+          "description": "8-max Small Blind open strategy.",
+          "note": "Later split into raise, raise bluff and limp/call if needed.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J2s+", "T2s+", "92s+", "82s+", "72s+", "62s+", "52s+", "42s+", "32s", "A2o+", "K2o+", "Q2o+", "J2o+", "T3o+", "95o+", "85o+", "75o+", "64o+", "54o"],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "SB facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "SB facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "SB facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_lj_open": {
+          "label": "Vs LJ Open",
+          "description": "SB facing LJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_hj_open": {
+          "label": "Vs HJ Open",
+          "description": "SB facing HJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_co_open": {
+          "label": "Vs CO Open",
+          "description": "SB facing CO open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_btn_open": {
+          "label": "Vs BTN Open",
+          "description": "SB facing BTN open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        }
+      }
+    },
+    "BB": {
+      "label": "Big Blind",
+      "spots": {
+        "vs_utg_open": {
+          "label": "Vs UTG Open",
+          "description": "BB facing UTG open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg1_open": {
+          "label": "Vs UTG+1 Open",
+          "description": "BB facing UTG+1 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_utg2_open": {
+          "label": "Vs UTG+2 Open",
+          "description": "BB facing UTG+2 open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_lj_open": {
+          "label": "Vs LJ Open",
+          "description": "BB facing LJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_hj_open": {
+          "label": "Vs HJ Open",
+          "description": "BB facing HJ open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_co_open": {
+          "label": "Vs CO Open",
+          "description": "BB facing CO open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_btn_open": {
+          "label": "Vs BTN Open",
+          "description": "BB facing BTN open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
+            "raise_bluff": [],
+            "call": []
+          }
+        },
+        "vs_sb_open": {
+          "label": "Vs SB Open",
+          "description": "BB facing SB open.",
+          "note": "Fill later.",
+          "actions": {
+            "raise": [],
             "raise_bluff": [],
             "call": []
           }
