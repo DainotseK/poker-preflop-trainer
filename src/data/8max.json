@@ -8,7 +8,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["66+", "A3s+", "K9s+", "Q9s+", "AJo+", "KQo"],
             "raise_bluff": [],
@@ -23,7 +23,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG+1 open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["66+", "A3s+", "K8s+", "Q9s+", "J9s+", "T9s", "98s", "ATo+"],
             "raise_bluff": [],
@@ -33,11 +33,11 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "UTG+1 facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; tight early-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["88-JJ", "AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         }
       }
@@ -48,7 +48,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max UTG+2 open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["44+", "A2s+", "K8s+", "Q9s+", "J9s+", "T8s+", "98s", "76s", "ATo+", "KTo+"],
             "raise_bluff": [],
@@ -58,21 +58,21 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "UTG+2 facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; early-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["88-JJ", "AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "UTG+2 facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["77-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"]
           }
         }
       }
@@ -83,7 +83,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Lojack open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["33+", "A2s+", "K6s+", "Q9s+", "J8s+", "T8s+", "98s", "87s", "76s", "A9o+", "KTo+", "QTo+"],
             "raise_bluff": [],
@@ -93,31 +93,31 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "LJ facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; early-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["88-JJ", "AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "LJ facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["77-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "LJ facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; one seat wider response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s"],
+            "call": ["66-TT", "A9s-AJs", "KTs-KJs", "QTs+", "JTs", "T9s", "98s", "87s", "AQo"]
           }
         }
       }
@@ -128,7 +128,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Hijack open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["22+", "A2s+", "K4s+", "Q8s+", "J8s+", "T7s+", "97s+", "87s", "76s", "65s", "54s", "A8o+", "KTo+", "QTo+", "JTo"],
             "raise_bluff": [],
@@ -138,41 +138,41 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "HJ facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; early-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["88-JJ", "AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "HJ facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["77-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "HJ facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; one seat wider response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s"],
+            "call": ["66-TT", "A9s-AJs", "KTs-KJs", "QTs+", "JTs", "T9s", "98s", "87s", "AQo"]
           }
         },
         "vs_lj_open": {
           "label": "Vs LJ Open",
           "description": "HJ facing LJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; middle-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["TT+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KJs-KQs"],
+            "call": ["55-99", "A8s-AJs", "KTs+", "QTs+", "JTs", "T9s", "98s", "87s", "AJo-AQo", "KQo", "QJo"]
           }
         }
       }
@@ -183,7 +183,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Cutoff open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q5s+", "J7s+", "T6s+", "96s+", "86s+", "75s+", "65s", "54s", "A5o+", "K9o+", "Q9o+", "J9o+", "T9o"],
             "raise_bluff": [],
@@ -193,51 +193,51 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "CO facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; early-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["88-JJ", "AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "CO facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["77-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "CO facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; one seat wider response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s"],
+            "call": ["66-TT", "A9s-AJs", "KTs-KJs", "QTs+", "JTs", "T9s", "98s", "87s", "AQo"]
           }
         },
         "vs_lj_open": {
           "label": "Vs LJ Open",
           "description": "CO facing LJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; middle-position response model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["TT+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KJs-KQs"],
+            "call": ["55-99", "A8s-AJs", "KTs+", "QTs+", "JTs", "T9s", "98s", "87s", "AJo-AQo", "KQo", "QJo"]
           }
         },
         "vs_hj_open": {
           "label": "Vs HJ Open",
           "description": "CO facing HJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; wider than vs LJ.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["99+", "AQs+", "AQo+", "AKo", "A5s-A2s"],
+            "raise_bluff": ["KTs-KQs", "QTs+"],
+            "call": ["44-88", "A7s-AJs", "K9s-KJs", "QTs+", "J9s+", "T8s+", "97s+", "87s", "76s", "A9o-AJo", "KTo-KQo", "QJo"]
           }
         }
       }
@@ -248,7 +248,7 @@
         "open": {
           "label": "Open Raise",
           "description": "8-max Button open raise chart.",
-          "note": "Open raise spot.",
+          "note": "Source: public 8-max open chart baseline.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J3s+", "T3s+", "95s+", "85s+", "74s+", "64s+", "53s+", "43s", "A2o+", "K5o+", "Q8o+", "J8o+", "T7o+", "97o+", "87o"],
             "raise_bluff": [],
@@ -258,61 +258,61 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "BTN facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; IP response to earliest open.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["77-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s", "AQo"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "BTN facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["66-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s", "87s", "AQo"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "BTN facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; IP response widens one step.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KQs"],
+            "call": ["55-TT", "A9s-AJs", "KTs-KJs", "QTs+", "JTs", "T9s", "98s", "87s", "AJo-AQo", "KQo"]
           }
         },
         "vs_lj_open": {
           "label": "Vs LJ Open",
           "description": "BTN facing LJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; middle-position IP response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["TT+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KJs-KQs"],
+            "call": ["44-99", "A8s-AJs", "KTs+", "QTs+", "JTs", "T9s", "98s", "87s", "76s", "AJo-AQo", "KQo", "QJo"]
           }
         },
         "vs_hj_open": {
           "label": "Vs HJ Open",
           "description": "BTN facing HJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; late-position IP response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["99+", "AQs+", "AQo+", "AKo", "A5s-A2s"],
+            "raise_bluff": ["KTs-KQs", "QTs+"],
+            "call": ["33-88", "A7s-AJs", "K9s-KJs", "QTs+", "J9s+", "T8s+", "97s+", "87s", "76s", "A9o-AJo", "KTo-KQo", "QJo"]
           }
         },
         "vs_co_open": {
           "label": "Vs CO Open",
           "description": "BTN facing CO open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; widest standard IP cold-call/3bet spot.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["88+", "AJs+", "AQo+", "AKo", "A5s-A2s"],
+            "raise_bluff": ["KTs-KQs", "QTs+", "JTs"],
+            "call": ["22-77", "A2s-ATs", "K7s-KJs", "Q9s-QJs", "J9s+", "T8s+", "97s+", "86s+", "76s", "65s", "54s", "A8o-AJo", "KTo-KQo", "QTo+", "JTo"]
           }
         }
       }
@@ -323,7 +323,7 @@
         "open": {
           "label": "Raise or Limp",
           "description": "8-max Small Blind open strategy.",
-          "note": "Later split into raise, raise bluff and limp/call if needed.",
+          "note": "Source: public 8-max open chart baseline; later split into raise and limp if needed.",
           "actions": {
             "raise": ["22+", "A2s+", "K2s+", "Q2s+", "J2s+", "T2s+", "92s+", "82s+", "72s+", "62s+", "52s+", "42s+", "32s", "A2o+", "K2o+", "Q2o+", "J2o+", "T3o+", "95o+", "85o+", "75o+", "64o+", "54o"],
             "raise_bluff": [],
@@ -333,71 +333,71 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "SB facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; OOP response is more 3bet-heavy and tighter than BTN.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["99-JJ", "AJs-AQs", "KQs", "QJs", "JTs"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "SB facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s", "KQs"],
+            "call": ["88-JJ", "AJs-AQs", "KQs", "QJs", "JTs", "T9s"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "SB facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; OOP but one seat wider response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KQs"],
+            "call": ["77-TT", "AJs-AQs", "KQs", "QJs", "JTs", "T9s", "98s"]
           }
         },
         "vs_lj_open": {
           "label": "Vs LJ Open",
           "description": "SB facing LJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; mixed call/3bet OOP model.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["TT+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KJs-KQs", "QJs"],
+            "call": ["66-99", "AJs-AQs", "KQs", "QTs+", "JTs", "T9s", "98s"]
           }
         },
         "vs_hj_open": {
           "label": "Vs HJ Open",
           "description": "SB facing HJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; wider than vs LJ.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["99+", "AQs+", "AQo+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KTs-KQs", "QTs+", "JTs"],
+            "call": ["55-88", "ATs-AJs", "KQs", "QJs", "J9s+", "T9s", "98s", "87s"]
           }
         },
         "vs_co_open": {
           "label": "Vs CO Open",
           "description": "SB facing CO open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; OOP defend widens versus late open.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["88+", "AJs+", "AQo+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KTs-KQs", "QTs+", "JTs", "T9s"],
+            "call": ["44-77", "A9s-ATs", "KJs", "QJs", "J9s+", "T8s+", "98s", "87s", "76s", "AQo", "KQo"]
           }
         },
         "vs_btn_open": {
           "label": "Vs BTN Open",
           "description": "SB facing BTN open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts; widest standard SB defend spot.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["77+", "ATs+", "AJo+", "KQs"],
+            "raise_bluff": ["A5s-A2s", "KTs-KJs", "QTs+", "JTs", "T9s", "98s"],
+            "call": ["22-66", "A2s-A9s", "K5s-KQs", "Q8s-QJs", "J8s-JTs", "T8s+", "97s+", "87s", "76s", "65s", "A8o-ATo", "KTo-KQo", "QTo+", "JTo"]
           }
         }
       }
@@ -408,81 +408,81 @@
         "vs_utg_open": {
           "label": "Vs UTG Open",
           "description": "BB facing UTG open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; tightest BB defend spot.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A4s"],
+            "call": ["22-JJ", "A2s-AQs", "KTs-KQs", "QTs+", "JTs", "T9s", "98s", "87s", "76s", "65s", "AJo-AQo", "KQo"]
           }
         },
         "vs_utg1_open": {
           "label": "Vs UTG+1 Open",
           "description": "BB facing UTG+1 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; slightly wider than vs UTG.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["QQ+", "AKs", "AKo"],
+            "raise_bluff": ["A5s-A3s"],
+            "call": ["22-JJ", "A2s-AQs", "K9s-KQs", "QTs+", "JTs", "T9s", "98s", "87s", "76s", "65s", "54s", "AJo-AQo", "KQo"]
           }
         },
         "vs_utg2_open": {
           "label": "Vs UTG+2 Open",
           "description": "BB facing UTG+2 open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; one seat wider response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["JJ+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KQs"],
+            "call": ["22-TT", "A2s-AJs", "K8s-KJs", "Q9s-QJs", "J9s+", "T8s+", "98s", "87s", "76s", "65s", "54s", "A9o-AQo", "KTo-KQo"]
           }
         },
         "vs_lj_open": {
           "label": "Vs LJ Open",
           "description": "BB facing LJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; middle-position BB response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["TT+", "AQs+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KJs-KQs"],
+            "call": ["22-99", "A2s-AJs", "K7s-KJs", "Q9s-QJs", "J9s+", "T8s+", "97s+", "87s", "76s", "65s", "54s", "A9o-AJo", "KTo-KQo", "QJo"]
           }
         },
         "vs_hj_open": {
           "label": "Vs HJ Open",
           "description": "BB facing HJ open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; wider than vs LJ.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["99+", "AQs+", "AQo+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KTs-KQs", "QTs+"],
+            "call": ["22-88", "A2s-AJs", "K6s-KJs", "Q8s-QJs", "J8s+", "T7s+", "97s+", "86s+", "75s+", "64s+", "54s", "A8o-AJo", "KTo-KQo", "QTo+", "JTo"]
           }
         },
         "vs_co_open": {
           "label": "Vs CO Open",
           "description": "BB facing CO open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; late-position BB response.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["88+", "AJs+", "AQo+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KTs-KQs", "QTs+", "JTs"],
+            "call": ["22-77", "A2s-ATs", "K5s-KJs", "Q7s-QJs", "J8s+", "T7s+", "96s+", "86s+", "75s+", "64s+", "53s+", "43s", "A7o-AJo", "K9o-KQo", "Q9o-QJo", "J9o+", "T9o", "98o"]
           }
         },
         "vs_btn_open": {
           "label": "Vs BTN Open",
           "description": "BB facing BTN open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard BB defend logic; widest non-BvB defend spot.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["77+", "ATs+", "AQo+", "AKo"],
+            "raise_bluff": ["A5s-A2s", "KTs-KQs", "QTs+", "JTs"],
+            "call": ["22-66", "A2s-A9s", "K2s-KJs", "Q4s-QJs", "J6s-JTs", "T6s+", "96s+", "85s+", "75s+", "64s+", "53s+", "43s", "A2o-AJo", "K7o-KQo", "Q8o-QJo", "J8o+", "T8o+", "98o", "87o", "76o", "65o", "54o"]
           }
         },
         "vs_sb_open": {
           "label": "Vs SB Open",
           "description": "BB facing SB open.",
-          "note": "Fill later.",
+          "note": "Source: inferred from public charts and standard blind-vs-blind logic; widest overall defend spot.",
           "actions": {
-            "raise": [],
-            "raise_bluff": [],
-            "call": []
+            "raise": ["66+", "ATs+", "AJo+", "KQs"],
+            "raise_bluff": ["A5s-A2s", "KTs-KJs", "QTs+", "JTs", "T9s", "98s"],
+            "call": ["22-55", "A2s-A9s", "K2s-KJs", "Q4s-QJs", "J5s-JTs", "T5s+", "95s+", "85s+", "74s+", "64s+", "53s+", "43s", "A2o-ATo", "K6o-KQo", "Q8o-QJo", "J8o+", "T8o+", "98o", "87o", "76o", "65o", "54o"]
           }
         }
       }
